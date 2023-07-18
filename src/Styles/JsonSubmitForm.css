@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Poppin';
+    src: url('../Font/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+.formSection{
+    font-size: 14px;
+    font-family: 'Poppins',Helvetica;
+    width: 360px;
+    height: 800px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+}
+.form{
+  color: #282727;
+}
+.label-class{
+    margin: 10px;
+    font-weight: 400px;
+}
+.input-class{
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 6px;
+    border: none;
+    color: #a0a0a0;
+    margin: 15px;
+    width: 85%;
+    cursor: pointer;
+}
+.input-file-container{
+    background-color: #fafafa;
+    border: 1px dashed;
+    border-color: #d9d9d9;
+    border-radius: 10px;
+    height: 114px;
+    width: 85%;
+    color: transparent;
+    margin: 15px;
+    position: relative;
+    padding: 15px;
+}
+#jsonInputId{
+    width: 90%;
+    height: 100%;
+    color: transparent;
+    opacity: 0;
+    background-color: transparent;
+    background: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    cursor: pointer;
+}
+.browseFileIconDiv{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    color:#a0a0a0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.filecontentdivFather{
+    min-height: 180px;
+    max-height: 300px;
+    width: 310px;
+    margin: 15px;
+    position: relative;
+}
+.filecontentdiv{
+    background-color: #fafafa;
+    border-radius: 10px;
+    min-height: 180px;
+    max-height: 300px;
+    resize: none;
+    width: 310px;
+    border: none;
+    padding: 10px;
+}
+.filecontentdiv:focus{
+    outline: none;
+}
+.filecontentdiv::-webkit-scrollbar{
+    display: none;
+}
+.copyIconDiv{
+    position: absolute;
+    top: 10px;
+    right: -4px;
+    cursor: pointer;
+}
+.submitBtn{
+    background-color: #3062c880;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    height: 49px;
+    width: 319px;
+    cursor: pointer;
+    margin-left: 5%;
+    position: sticky;
+    left: 6%;
+    bottom: 15px;
+}
+.submitBtn:hover{
+    background-color:#3062c8;
+}

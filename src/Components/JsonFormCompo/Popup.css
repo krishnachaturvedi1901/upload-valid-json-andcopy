@@ -1,0 +1,147 @@
+.box {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+  }
+  
+  .box .success-card-wrapper {
+    border: 0px none;
+    height: 349.55px;
+    position: relative;
+    width: 300px;
+  }
+  
+  .box .success-card {
+    background-color: #ffffff;
+    border-radius: 36px;
+    height: 350px;
+    position: fixed;
+    top: 20%;
+    width: 300px;
+    margin: auto;
+    z-index: 3;
+  }
+  
+  .box .group {
+    height: 124px;
+    left: 99px;
+    position: absolute;
+    top: 30px;
+    width: 104px;
+  }
+  
+  .box .img {
+    height: 95px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 102px;
+  }
+  .img2{
+    height: 70px;
+    width: 80px;
+  }
+  
+  .box .text-wrapper {
+    color: #4381ff;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    left: 15px;
+    letter-spacing: -0.32px;
+    line-height: 20px;
+    position: absolute;
+    top: 104px;
+    white-space: nowrap;
+  }
+  
+  .box .div {
+    color: #000000;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 36px;
+    letter-spacing: -0.28px;
+    line-height: 20px;
+    position: absolute;
+    top: 169px;
+    white-space: nowrap;
+  }
+  
+  .box .group-wrapper {
+    height: 49px;
+    left: 24px;
+    position: absolute;
+    top: 206px;
+    width: 252px;
+  }
+  
+  .box .overlap-group-wrapper {
+    height: 49px;
+    width: 254px;
+  }
+  
+  .box .overlap-group {
+    background-color: #3062c8;
+    border-radius: 30px;
+    height: 49px;
+    position: relative;
+    width: 252px;
+  }
+  
+  .box .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 70px;
+    letter-spacing: 0.01px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+  }
+  
+  .box .div-wrapper {
+    height: 49px;
+    left: 24px;
+    position: absolute;
+    top: 271px;
+    width: 252px;
+    cursor: pointer;
+  }
+  .box .group-2 {
+    height: 49px;
+  }
+  
+  .box .overlap-group-2 {
+    background-color: #e9f0ff;
+    border-radius: 30px;
+    height: 49px;
+    position: relative;
+    width: 252px;
+  }
+  .overlap-group-2:hover{
+    background-color: #c3d6fd;
+  }  
+  .overlap-group:hover{
+    background-color:#2354b6;
+    cursor: pointer;
+  }
+
+  .box .text-wrapper-3 {
+    color: #4381ff;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 101px;
+    letter-spacing: 0.01px;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+  }
+
+  
