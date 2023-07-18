@@ -2,7 +2,7 @@
 # Upload-valid-json-andcopy
 You can upload valid json file only in this project and able to dispalay it. =======
 
-## [Netlify-deployed-link]('https://zag-upload-json-assignment-bykrishna.netlify.app/)
+## [Netlify-deployed-link](https://zag-upload-json-assignment-bykrishna.netlify.app/)
 
 ### Features-
 - Upload only Json file and give success popup with json file length.
